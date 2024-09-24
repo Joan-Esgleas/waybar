@@ -73,7 +73,7 @@ window#waybar {
   margin: 0px 6px 0px 6px;
 }
 
-#tray window menu {
+#tray menu {
   background: #212840;
   color: @textcolor;
   min-height: 16px;
