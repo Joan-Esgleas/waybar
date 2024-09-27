@@ -175,6 +175,7 @@
   },
   "interval": 1,
   "format": "{icon}",
+  "tooltip-format": "Battery: {capacity}%",
   //"rotate": 270,
   "format-charging": "󰂄",
   "format-plugged": "󰂄",

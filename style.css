@@ -45,8 +45,8 @@ window#waybar {
 }
 
 #workspaces button:hover {
-  background: none;
-  color: @textcolor;
+  background: @textcolor;
+  border-radius: 90px;
   animation: ws_hover 20s ease-in-out 1;
   transition: all 0.5s cubic-bezier(.55,-0.68,.48,1.682);
 }
@@ -74,9 +74,10 @@ window#waybar {
 }
 
 #tray menu {
-  background: #212840;
+  background: rgba(33, 40, 64, 0.95);
   color: @textcolor;
-  min-height: 16px;
+  border-radius: 20px;
+  min-height: 20px;
   font-weight: bold;
 }
 
